@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.boxShadow {
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.09), -10px -10px 20px 0px #fff;
+}
+
+.boxShadowSearch {
+  background: #f9f9f9;
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.08) inset,
+    -10px -10px 20px 0px #fff inset;
+}
+
+.boxShadowToggle {
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.08) inset,
+    -10px -10px 20px 0px #fff inset;
+}
+
+.boxShadowBtn {
+  background: #f3f3f3;
+  box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.18),
+    20px 20px 50px 0px #fff inset, -20px -20px 50px 0px #cdcdcd inset,
+    20px 20px 50px 0px rgba(255, 255, 255, 0.25) inset;
+}
