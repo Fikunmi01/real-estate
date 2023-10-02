@@ -4,7 +4,7 @@ import { Homepage } from "./pages/homepage";
 function App() {
   return (
     <>
-      <div className='text-[#fff]'>
+      <div className="text-[#fff]">
         <Homepage />
       </div>
     </>
