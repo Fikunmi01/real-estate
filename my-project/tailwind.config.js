@@ -14,7 +14,8 @@ module.exports = {
         black: '#1F1F1F',
         white: '#F3F3F3',
         lightGray: '#B0B0B0',
-        deepBlack: '#545454'
+        deepBlack: '#545454',
+        lightBrown:'rgba(31, 31, 31, 0.85);'
       }
 
     },

@@ -6,6 +6,22 @@
   box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.09), -10px -10px 20px 0px #fff;
 }
 
+.bgCustom {
+  background-image: url("/my-project/public/assets/Rectangle63.png");
+}
+
+.boxShadowSubmit {
+  background: #2d2d2d;
+  box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.45),
+    -10px -10px 30px 0px #2b2b2b;
+}
+
+.boxShadowBlack {
+  background: #2d2d2d;
+  box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.45) inset,
+    -10px -10px 30px 0px #2b2b2b inset;
+}
+
 .boxShadowSearch {
   background: #f9f9f9;
   box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.08) inset,
@@ -22,4 +38,16 @@
   box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.18),
     20px 20px 50px 0px #fff inset, -20px -20px 50px 0px #cdcdcd inset,
     20px 20px 50px 0px rgba(255, 255, 255, 0.25) inset;
+}
+
+.smallWidth {
+  width: 10rem;
+}
+
+.bigWidth {
+  width: 20rem;
+}
+
+.bgImg {
+  background-image: url(/my-project/public/assets/Rectangle54.png);
 }
